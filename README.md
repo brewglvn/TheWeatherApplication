@@ -17,11 +17,17 @@ This is a simple application for weather
 	http://api.openweathermap.org/data/2.5/forecast?appid=5098ae28de31c56c872d61b9153dee3d&units=metric&lat=16.07&lon=108.21
 	
 	In array list :
-	index : 0 -> today (current day)
+	
+	- index : 0 -> today (current day)
+	
 		- Get comparator string from ("dt_txt": "2018-11-02 06:00:00") -> result strCheck = "06:00:00"
+		
 	From index 1 to end :
+	
 		- Get all object
+		
 			if(dt_txt.contains(strCheck))
+			
 				add to list
 				
 #Function 
