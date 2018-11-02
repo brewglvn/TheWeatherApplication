@@ -12,7 +12,9 @@ This is a simple application for weather
 		Parameters:
 		- lat, lon coordinates of the location of your interest
 		
-	For Example : http://api.openweathermap.org/data/2.5/forecast?appid=5098ae28de31c56c872d61b9153dee3d&units=metric&lat=16.07&lon=108.21
+	For Example : 
+	http://api.openweathermap.org/data/2.5/forecast?appid=5098ae28de31c56c872d61b9153dee3d&units=metric&lat=16.07&lon=108.21
+	
 	In array list :
 	index : 0 -> today (current day)
 		- Get comparator string from ("dt_txt": "2018-11-02 06:00:00") -> result strCheck = "06:00:00"
@@ -23,11 +25,16 @@ This is a simple application for weather
 				
 #Function 
 - Overview screen
+
 https://drive.google.com/file/d/1HJFzJr4bEH-oGBUSDBIqhDB7h6LoM031/view
+
 - Details screen 
+
 https://drive.google.com/open?id=1shH9d_GbnY06J-K-a1v5dFDgOqUJsTii
+
 - Extra
 	- Share weather information
 	- Setting location which user want to customize 
+	
 https://drive.google.com/open?id=1x_J--_9ZMaSjXfcYkXyqqUTHyCli7tod
 https://drive.google.com/open?id=1AqIlFvgOYLfJl4Y1HR5OvEF3UKroOk2V
