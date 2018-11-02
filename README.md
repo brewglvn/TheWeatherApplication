@@ -2,7 +2,7 @@
 This is a simple application for weather
 
 #Note
-- I am using  using MVP pattern.
+- I used MVP pattern.
 - I am using Openweathermap API to get weather information
 	* https://openweathermap.org/api
 	- Get information by geographic coordinates
