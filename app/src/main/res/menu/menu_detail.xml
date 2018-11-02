@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.details.DetailActivity">
+    <item
+        android:id="@+id/action_menu_share"
+        android:enabled="true"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:title="icon download"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_menu_notification"
+        android:icon="@drawable/ic_more_white_24dp"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_menu_bluetooth"
+                android:icon="@drawable/ic_bluetooth_white"
+                android:orderInCategory="100"
+                android:title="Bluetooth" />
+            <item
+                android:id="@+id/action_menu_google"
+                android:icon="@drawable/ic_google"
+                android:orderInCategory="100"
+                android:title="Google+" />
+            <item
+                android:id="@+id/action_menu_facebook"
+                android:icon="@drawable/ic_facebook"
+                android:orderInCategory="100"
+                android:title="Facebook" />
+        </menu>
+    </item>
+</menu>

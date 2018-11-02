@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.overview.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rtoday"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/today_height"
+        android:background="@color/main">
+        <RelativeLayout
+            android:id="@+id/rlogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/logo_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/logo_margin"
+                android:background="@drawable/ic_logo" />
+
+            <ImageButton
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_more_white_24dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rdate"
+            android:layout_below="@id/rlogo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/today_line1_margin">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:paddingLeft="@dimen/today_line1_margin"
+                android:text="@string/today"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rtemp"
+            android:layout_below="@id/rdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+                <TextView
+                    android:id="@+id/temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/today_line_margin"
+                    android:layout_centerVertical="true"
+                    android:text="@string/temp"
+                    android:textColor="@color/white"
+                    android:textSize="50dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/temp"
+                    android:background="@drawable/ic_degrees_white_16dp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iconWeather"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/logo_margin"
+                android:background="@drawable/art_clear"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rbot"
+            android:layout_below="@id/rtemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+                <TextView
+                    android:id="@+id/tempmin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="@dimen/today_line2_margin"
+                    android:layout_centerVertical="true"
+                    android:text="@string/tempmin"
+                    android:textColor="@color/white"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tempmin"
+                    android:background="@drawable/ic_degrees_white_8dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:paddingRight="@dimen/today_line2_margin"
+                android:text="@string/description"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclers"
+        android:layout_below="@id/rtoday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:scrollbars="vertical">
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

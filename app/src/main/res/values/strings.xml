@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">The Weather</string>
+    <string name="today">Today, July 17</string>
+    <string name="temp">19</string>
+    <string name="tempmin">9</string>
+    <string name="description">Clear</string>
+    <string name="s_today">Today</string>
+    <string name="s_tomorrow">Tomorrow</string>
+</resources>

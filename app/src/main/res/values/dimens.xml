@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="today_height">270dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="logo_margin">20dp</dimen>
+    <dimen name="line_margin">30dp</dimen>
+    <dimen name="today_line_margin">40dp</dimen>
+    <dimen name="today_line1_margin">40dp</dimen>
+    <dimen name="today_line2_margin">50dp</dimen>
+    <dimen name="today_line3_margin">70dp</dimen>
+</resources>

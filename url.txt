@@ -1,0 +1,4 @@
+api.openweathermap.org/data/2.5/weather?q=danang,vn&appid=5098ae28de31c56c872d61b9153dee3d&units=metric
+
+api.openweathermap.org/data/2.5/forecast?appid=5098ae28de31c56c872d61b9153dee3d&units=metric&lat=16.07&lon=108.21
+api.openweathermap.org/data/2.5/forecast?appid=5098ae28de31c56c872d61b9153dee3d&units=metric&lat=16.07&lon=108.21&mode=xml
