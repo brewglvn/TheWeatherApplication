@@ -39,6 +39,7 @@ public class MainPresenter<V extends MainMvpView> extends BasePresenter<V> imple
 
     @Override
     public void refresh(double la, double lo) {
+        getMvpView().showLoading();
         float latitude = CommonUtils.convertToFloat(la);
         float longitude = CommonUtils.convertToFloat(lo);
         new GetData().execute(BuildConfig.BASE_URL+"&lat="+latitude+"&lon="+longitude);
