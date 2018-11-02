@@ -27,16 +27,15 @@ This is a simple application for weather
 #Function 
 - Overview screen
 
-https://drive.google.com/file/d/1HJFzJr4bEH-oGBUSDBIqhDB7h6LoM031/view
+![Overview screen](screenshots/Screenshot_20181102-113302.png "Overview screen")
 
 - Details screen 
 
-https://drive.google.com/open?id=1shH9d_GbnY06J-K-a1v5dFDgOqUJsTii
+![Details screen](screenshots/Screenshot_20181102-113313.png "Details screen")
 
 - Extra
 	- Share weather information
 	- Setting location which user want to customize 
 	
-https://drive.google.com/open?id=1x_J--_9ZMaSjXfcYkXyqqUTHyCli7tod
-
-https://drive.google.com/open?id=1AqIlFvgOYLfJl4Y1HR5OvEF3UKroOk2V
+![Extra](screenshots/Screenshot_20181102-113318.png "Extra")
+![Extra](screenshots/Screenshot_20181102-113327.png "Extra")
