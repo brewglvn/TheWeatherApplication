@@ -34,7 +34,7 @@ This is a simple application for weather
 #Function 
 - Overview screen
 
-![Overview screen](screenshots/Screenshot_20181102-113302.png "Overview screen")
+![Overview screen](screenshots/Screenshot_20181105-061211.png "Overview screen")
 
 - Details screen 
 
