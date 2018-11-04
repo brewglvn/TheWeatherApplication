@@ -44,7 +44,7 @@ This is a simple application for weather
 	- Share weather information
 	- Setting location which user want to customize 
 	
-![Extra](screenshots/Screenshot_20181102-113318.png "Extra")
+![Extra](screenshots/Screenshot_20181105-061519.png "Extra")
 ![Extra](screenshots/Screenshot_20181102-113327.png "Extra")
 ![Share Facebook](screenshots/Screenshot_20181102-115630.png "Share Facebook")
 ![Permission](screenshots/Screenshot_20181102-115551.png "Permission")
